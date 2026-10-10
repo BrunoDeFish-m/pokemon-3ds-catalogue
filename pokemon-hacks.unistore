@@ -1,0 +1,121 @@
+{
+  "storeInfo": {
+    "title": "Pokémon ROM Hacks",
+    "author": "BrunoDeFish-m",
+    "description": "Nintendo DS Pokémon ROM hack catalogue for TWiLight Menu++",
+    "url": "https://raw.githubusercontent.com/BrunoDeFish-m/pokemon-3ds-catalogue/main/pokemon-hacks.unistore",
+    "file": "pokemon-hacks.unistore",
+    "version": 3,
+    "revision": 1
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "Pokémon Blaze Black",
+        "author": "ROM hack creator",
+        "version": "v1.0",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "DS"
+        ],
+        "description": "Nintendo DS ROM hack (256 MB). Download to /roms/nds/ and launch with TWiLight Menu++.",
+        "icon_index": -1
+      },
+      "Download .nds to TWiLight Menu++ (256 MB)": [
+        {
+          "type": "mkdir",
+          "directory": "sdmc:/roms/nds/"
+        },
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/BrunoDeFish-m/pokemon-3ds-catalogue/releases/download/v1.0/Pokemon.-.Blaze.Black.nds",
+          "output": "sdmc:/roms/nds/Pokemon Blaze Black.nds",
+          "message": "Downloading Pokémon Blaze Black..."
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Pokémon Renegade Platinum",
+        "author": "ROM hack creator",
+        "version": "v1.0",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "DS"
+        ],
+        "description": "Nintendo DS ROM hack (100 MB). Download to /roms/nds/ and launch with TWiLight Menu++.",
+        "icon_index": -1
+      },
+      "Download .nds to TWiLight Menu++ (100 MB)": [
+        {
+          "type": "mkdir",
+          "directory": "sdmc:/roms/nds/"
+        },
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/BrunoDeFish-m/pokemon-3ds-catalogue/releases/download/v1.0/Pokemon.-.Renegade.Platinum.nds",
+          "output": "sdmc:/roms/nds/Pokemon Renegade Platinum.nds",
+          "message": "Downloading Pokémon Renegade Platinum..."
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Pokémon Sacred Gold",
+        "author": "ROM hack creator",
+        "version": "v1.0",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "DS"
+        ],
+        "description": "Nintendo DS ROM hack (125 MB). Download to /roms/nds/ and launch with TWiLight Menu++.",
+        "icon_index": -1
+      },
+      "Download .nds to TWiLight Menu++ (125 MB)": [
+        {
+          "type": "mkdir",
+          "directory": "sdmc:/roms/nds/"
+        },
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/BrunoDeFish-m/pokemon-3ds-catalogue/releases/download/v1.0/Pokemon.-.Sacred.Gold.nds",
+          "output": "sdmc:/roms/nds/Pokemon Sacred Gold.nds",
+          "message": "Downloading Pokémon Sacred Gold..."
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Pokémon Blaze Black 2 Redux",
+        "author": "ROM hack creator",
+        "version": "v1.0",
+        "category": [
+          "game"
+        ],
+        "console": [
+          "DS"
+        ],
+        "description": "Nintendo DS ROM hack (512 MB). Download to /roms/nds/ and launch with TWiLight Menu++.",
+        "icon_index": -1
+      },
+      "Download .nds to TWiLight Menu++ (512 MB)": [
+        {
+          "type": "mkdir",
+          "directory": "sdmc:/roms/nds/"
+        },
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/BrunoDeFish-m/pokemon-3ds-catalogue/releases/download/v1.0/Pokemon.Blaze.Black.2.Redux.nds",
+          "output": "sdmc:/roms/nds/Pokemon Blaze Black 2 Redux.nds",
+          "message": "Downloading Pokémon Blaze Black 2 Redux..."
+        }
+      ]
+    }
+  ]
+}
